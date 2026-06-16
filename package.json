@@ -74,6 +74,7 @@
     "google-auth-library": "^10.6.2",
     "openai": "^5.8.2",
     "openai-oauth": "^1.0.2",
+    "pg": "^8.21.0",
     "progrok": "file:vendor/progrok-0.2.0.tgz",
     "sharp": "^0.34.5",
     "trash": "^10.1.1",
@@ -86,6 +87,7 @@
     "@types/better-sqlite3": "^7.6.13",
     "@types/express": "^5.0.6",
     "@types/node": "^22.19.17",
+    "@types/pg": "^8.20.0",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   }
