@@ -14,7 +14,7 @@ on:
         default: 'latest'
 
 env:
-  DOCKER_IMAGE: tinnt-truman/ima2-gen
+  DOCKER_IMAGE: ${{ secrets.DOCKERHUB_USERNAME }}/ima2-gen
 
 jobs:
   build-and-push:
