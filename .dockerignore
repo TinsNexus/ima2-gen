@@ -1,0 +1,17 @@
+node_modules
+.env
+.ima2/
+generated/
+.DS_Store
+devlog/
+ui/dist/
+ui/tsconfig.app.tsbuildinfo
+ui/tsconfig.node.tsbuildinfo
+__pycache__/
+*.pyc
+/result
+/result-*
+tests/experiments/
+cache/
+.git/
+.github/
