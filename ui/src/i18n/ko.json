@@ -1063,7 +1063,8 @@
   "language": {
     "label": "언어",
     "ko": "한국어",
-    "en": "English"
+    "en": "English",
+    "vi": "Tiếng Việt"
   },
   "theme": {
     "label": "테마",
