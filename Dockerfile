@@ -7,7 +7,7 @@ COPY vendor ./vendor
 RUN npm ci
 
 COPY . .
-RUN npm run build && npm run build:server && npm run build:cli
+RUN npm --prefix ui install && npm run build && npm run build:server && npm run build:cli
 
 FROM node:20-alpine
 
